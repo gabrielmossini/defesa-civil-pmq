@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Defesa Civil de Quatá</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="jquery-3.6.3.min.js"></script>
+  <link rel="stylesheet" href="/css/theme.css">
+  
+</head>
+<link rel="icon" href="/img/logoDC_V2.png">
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <div id="home" class="container-fluid">
+    
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">    
+    
+<!--NAVBAR-->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Top">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <img src="/img/logo.png" width="35" height="40"></a>
+      <a class="navbar-brand" href="/index.html"><strong>PREFEITURA MUNICIPAL DE QUATÁ</strong></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/index.html">Página Inicial</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!--LOGO-->
+<div class="jumbotron text-center imgbox">
+  <h1><strong>ENCHENTES</strong></h1>
+  <form class="form-inline">
+  </form>
+</div>
+
+<!--Nossa missão-->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12">
+      <h2>Entenda o Periodo de Enchentes</h2>
+      <div class="col-sm-3">
+        <img src="/img/symbols/enchente.png" height="200" width="200">
+      </div>
+      <h4>O período de enchentes é um fenômeno natural que ocorre em diversas regiões do Brasil, inclusive no interior do Estado de São Paulo. Esse período é caracterizado por um aumento significativo no volume de água em rios, córregos e represas, causado principalmente pelas chuvas intensas que costumam acontecer entre os meses de dezembro e março.</h4>
+      <p>O período de enchentes é um fenômeno natural que ocorre em diversas regiões do Brasil, inclusive no interior do Estado de São Paulo. Esse período é caracterizado por um aumento significativo no volume de água em rios, córregos e represas, causado principalmente pelas chuvas intensas que costumam acontecer entre os meses de dezembro e março.</p>
+      <p>No interior de São Paulo, algumas cidades são mais propensas a sofrer com enchentes, como é o caso de Itu, Sorocaba, Jundiaí, Piracicaba e Americana. Nessas regiões, é comum que os rios transbordem e as águas invadam ruas, casas e comércios, causando prejuízos materiais e colocando em risco a vida de moradores e turistas.</p>
+      <p>Além das chuvas, outros fatores podem contribuir para o aumento do volume de água em rios e represas, como o desmatamento, a urbanização desordenada e o descarte inadequado de resíduos sólidos. Por isso, é fundamental que as autoridades municipais e estaduais implementem medidas de prevenção e controle das enchentes, como a construção de diques e barragens, a limpeza e desassoreamento dos rios, o monitoramento do nível das águas e a realização de campanhas de conscientização da população.</p>
+      <p></p>
+      <p></p>
+    </div>
+  </div>
+</div>
+</div>
+
+<!--Footer-->
+<footer class="container-fluid text-center footer-upper">
+  <p>Setor© 2023 ─ Setor de Tecnologia da Informação (STI)</p>
+</footer>
+
+<footer class="container-fluid text-center footer-down">
+  <p>PREFEITURA MUNICIPAL DE QUATÁ - CNPJ: 44.547.313/0001-30</p>
+</footer>
+
+
+</body>
+<script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links in navbar + footer link
+    $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+  
+     // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+  
+      // Prevent default anchor click behavior
+      event.preventDefault();
+  
+      // Store hash
+      var hash = this.hash;
+  
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+  
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+        });
+      } // End if
+    });
+  })
+  </script>
+</html>

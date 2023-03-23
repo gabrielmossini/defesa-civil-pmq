@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Defesa Civil de Quatá</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="jquery-3.6.3.min.js"></script>
+  <link rel="stylesheet" href="/css/theme.css">
+  
+</head>
+<link rel="icon" href="/img/logoDC_V2.png">
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <div id="home" class="container-fluid">
+    
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">    
+    
+<!--NAVBAR-->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Top">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <img src="/img/logo.png" width="35" height="40"></a>
+      <a class="navbar-brand" href="/index.html"><strong>PREFEITURA MUNICIPAL DE QUATÁ</strong></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/index.html">Página Inicial</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!--LOGO-->
+<div class="jumbotron text-center imgbox">
+  <h1><strong>DESLIZAMENTOS</strong></h1>
+  <form class="form-inline">
+  </form>
+</div>
+
+<!--Nossa missão-->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12">
+      <h2>Como agir em casos de Deslizamentos</h2>
+      <div class="col-sm-3">
+        <img src="/img/symbols/deslizamentos.png" height="200" width="200">
+      </div>
+      <h4>Deslizamentos de terra são um fenômeno natural que podem ser desencadeados por vários fatores, como a chuva intensa, a erosão do solo, a topografia do terreno e a atividade sísmica. Esses deslizamentos podem ser perigosos para a vida humana e a propriedade, por isso é importante saber como se proteger.</h4>
+      <p>Com as mudanças climáticas e a urbanização crescente, deslizamentos de terra se tornaram uma preocupação crescente em muitas regiões do mundo. Felizmente, há medidas que podem ser tomadas para prevenir esses desastres naturais. Aqui estão algumas maneiras de prevenir deslizamentos de terra: </p>
+      <p>Conheça a topografia da área em que você vive. Certifique-se de estar ciente das encostas íngremes ou áreas propensas a deslizamentos de terra na sua região. Verifique os mapas de risco da cidade ou do estado e se informe sobre as condições climáticas e geológicas da sua área.</p>
+      <p>Uma das medidas mais importantes é evitar construir em encostas íngremes ou terrenos instáveis. Antes de construir uma casa ou edifício, é importante avaliar cuidadosamente o terreno e considerar a possibilidade de deslizamentos. Se o terreno for considerado instável, medidas de contenção e drenagem podem ser tomadas para reduzir o risco de deslizamentos.</p>
+      <p>Além disso, é importante manter as encostas íngremes e os terrenos próximos a edifícios limpos e bem cuidados. A vegetação excessiva pode aumentar o risco de deslizamentos, pois suas raízes podem enfraquecer o solo. Limpar a vegetação excessiva e manter o solo compactado pode ajudar a reduzir o risco de deslizamentos.</p>
+      <p>As Defesa Civil também desempenham um papel importante na proteção contra deslizamentos. Elas podem monitorar as áreas propensas a deslizamentos, alertar a população sobre os riscos e implementar medidas de segurança, como o fechamento de estradas ou a evacuação de áreas de alto risco.</p>
+      <p>Em conclusão, a prevenção de deslizamentos de terra é uma responsabilidade compartilhada entre indivíduos, empresas e autoridades locais. Ao construir em terrenos estáveis, manter as encostas limpas e bem cuidadas, monitorar a condição do solo e seguir as orientações das autoridades locais, podemos reduzir significativamente o risco de deslizamentos e proteger nossas comunidades.</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<!--Footer-->
+<footer class="container-fluid text-center footer-upper">
+  <p>Setor© 2023 ─ Setor de Tecnologia da Informação (STI)</p>
+</footer>
+
+<footer class="container-fluid text-center footer-down">
+  <p>PREFEITURA MUNICIPAL DE QUATÁ - CNPJ: 44.547.313/0001-30</p>
+</footer>
+
+
+</body>
+<script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links in navbar + footer link
+    $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+  
+     // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+  
+      // Prevent default anchor click behavior
+      event.preventDefault();
+  
+      // Store hash
+      var hash = this.hash;
+  
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+  
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+        });
+      } // End if
+    });
+  })
+  </script>
+</html>
